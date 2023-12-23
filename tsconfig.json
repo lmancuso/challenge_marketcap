@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module" : "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ESNext",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "baseUrl": "./src",
+    "strict": true, 
+"paths": {
+    "@api": ["api/*"],
+    "@config": ["config/*"],
+    "@consumer": ["consumer/*"],
+    "@store": ["store/*"],
+    "@utils": ["utils/*"]
+}
+  },
+  "include": ["src/**/*"]
+}
