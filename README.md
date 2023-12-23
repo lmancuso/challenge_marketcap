@@ -1,1 +1,0 @@
-# challenge_marketcap
